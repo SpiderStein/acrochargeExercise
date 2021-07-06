@@ -1,0 +1,13 @@
+PUT http://localhost:9999/customers/1 HTTP/1.1
+Content-Type: application/json
+
+{
+        "firstName": "Dina",
+        "lastName": "ban",
+        "email": "dan@gmail.com",
+        "gender": "female",
+        "country": "Israel",
+        "city": "Tel-Aviv",
+        "street": "Hatapuah",
+        "phone": "0523333333"
+}
